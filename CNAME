@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.27-Debian <<>> www.manulife.com. 7199 IN CNAME adhamelhansy.github.io.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25293
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;www.manulife.com.		IN	A
+
+;; ANSWER SECTION:
+www.manulife.com.	7200	IN	CNAME	www.manulife.com.edgekey.net.
+www.manulife.com.edgekey.net. 300 IN	CNAME	e12655.ksd.akamaiedge.net.
+e12655.ksd.akamaiedge.net. 20	IN	A	2.21.52.231
+
+;; Query time: 263 msec
+;; SERVER: 1.1.1.3#53(1.1.1.3)
+;; WHEN: Tue Jul 26 21:28:46 EDT 2022
+;; MSG SIZE  rcvd: 139
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32410
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;7199.				IN	CNAME
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022072602 1800 900 604800 86400
+
+;; Query time: 73 msec
+;; SERVER: 1.1.1.3#53(1.1.1.3)
+;; WHEN: Tue Jul 26 21:28:47 EDT 2022
+;; MSG SIZE  rcvd: 108
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61194
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;adhamelhansy.github.io.		IN	A
+
+;; ANSWER SECTION:
+adhamelhansy.github.io.	3600	IN	A	185.199.108.153
+adhamelhansy.github.io.	3600	IN	A	185.199.109.153
+adhamelhansy.github.io.	3600	IN	A	185.199.110.153
+adhamelhansy.github.io.	3600	IN	A	185.199.111.153
+
+;; Query time: 90 msec
+;; SERVER: 1.1.1.3#53(1.1.1.3)
+;; WHEN: Tue Jul 26 21:28:47 EDT 2022
+;; MSG SIZE  rcvd: 115
+
