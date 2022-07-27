@@ -1,0 +1,1 @@
+# wmsrepo2.manul.com
